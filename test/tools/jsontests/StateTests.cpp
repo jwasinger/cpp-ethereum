@@ -197,5 +197,5 @@ BOOST_AUTO_TEST_CASE(stMemoryStressTest){}
 BOOST_AUTO_TEST_CASE(stQuadraticComplexityTest){}
 
 //Invalid Opcode Tests
-BOOST_AUTO_TEST_CASE(stBadOpcode){}
+BOOST_AUTO_TEST_CASE(stOpcode){}
 BOOST_AUTO_TEST_SUITE_END()
