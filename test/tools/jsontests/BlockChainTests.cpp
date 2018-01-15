@@ -1027,6 +1027,9 @@ BOOST_AUTO_TEST_CASE(bcHomesteadToDao){}
 BOOST_AUTO_TEST_CASE(bcHomesteadToEIP150){}
 BOOST_AUTO_TEST_CASE(bcEIP158ToByzantium){}
 
+//EWASM Blockchain Tests
+BOOST_AUTO_TEST_CASE(bcEWASM){}
+
 BOOST_AUTO_TEST_SUITE_END()
 
 //General tests in form of blockchain tests
@@ -1089,5 +1092,7 @@ BOOST_AUTO_TEST_CASE(stQuadraticComplexityTest){}
 //Bad opcodes test
 BOOST_AUTO_TEST_CASE(stBadOpcode){}
 
-BOOST_AUTO_TEST_SUITE_END()
+//EWASM tests 
+BOOST_AUTO_TEST_CASE(stEWASMTests){}
 
+BOOST_AUTO_TEST_SUITE_END()
