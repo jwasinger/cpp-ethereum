@@ -493,6 +493,7 @@ int main(int argc, char** argv)
             try
             {
                 preferredNodes[publicKey] = make_pair(NodeIPEndpoint(bi::address::from_string(hostIP), port, port), required);
+                cerr << hostIP << std::endl;
             }
             catch (...)
             {
